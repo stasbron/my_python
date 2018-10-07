@@ -1,0 +1,14 @@
+1)def number_to_string(num):
+    return str(num)
+
+
+2)def reverse(st):
+    return ' '.join(reversed(st.split(' ')))
+
+
+
+
+3)def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
